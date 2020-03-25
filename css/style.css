@@ -1,0 +1,115 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #3B3F45;
+	font-family: "Tebuchet MC", Tebuchet, Arial, sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	color: #fff;
+	border: 25px solid #fff;
+}
+
+* {
+	transition: all .1s ease-in;
+	box-sizing: border-box;
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: 600;
+	color: #eb7e7f;
+}
+
+.ba-header-shop-list, .ba-bon-appetit {
+	text-align: center;
+  	background: #4A4F56;
+	color: #eb7e7f;
+}
+
+.ba-header-shop-list {
+	padding: 20px 0;
+}
+
+.ba-bon-appetit p {
+	padding: 15px 0;
+}
+
+.ba-header-shop-list h1, 
+.ba-header-shop-list p {
+	margin: 0;
+}
+
+.ba-content {
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 40px 20px;
+ }
+
+ .ba-content ul {
+ 	padding: 0;
+	 margin: 0 0 40px;
+	 border-collapse: collapse;   	
+	 border-spacing: 0;
+ }
+
+.ba-content li {
+	background: #88839e;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.ba-content li:nth-child(even) {
+	background: #7a7593;
+}
+
+.ba-content [type="checkbox"] {
+	width: 26px;
+	height: 26px;
+	vertical-align: middle;
+	position: relative;
+	top: -2px;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+.ba-content label {
+	cursor: pointer;
+	display: block;
+	padding: 15px;
+}
+
+.ba-content [type="checkbox"]:checked ~ span {
+	text-decoration: line-through;
+	color: #a3a0b5;
+ }
+
+ 
+ .ba-small-text {
+	 color: #CDCBD6;
+	 font-size: 16px;
+ }
+
+.ba-small-text:before {
+	content: '( ';
+}
+
+.ba-small-text:after {
+	content: ' )';
+}
+
+.ba-content li:hover {
+	box-shadow: inset 0px -4px 0px 0px white;
+	background: #625e77;
+}
+
+.ba-content li label:hover {
+	box-shadow: inset 0px 4px 0px 0px white;
+}
+
+.ba-content li:active {
+	background-color: #EB7E7F;
+}
+
+.ba-bon-appetit p {
+	font-size: 26px;
+}
